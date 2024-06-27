@@ -1,6 +1,6 @@
 <h3><b> Create new repository on the command line </b> </h3>  
 
-```
+```c++
     git init
     git add 'file'
     git commit -m "message"
@@ -11,14 +11,14 @@
 
 <h3><b> Push existing repository from the command line </h3></b>  
 	
-```
+```python
     git remote add origin "link to github"
     git branch -M main
     git push -u origin main
 ```
 
 Know the information of user:  
-```	
+```C	
     git config --list
 ```
 
@@ -28,12 +28,12 @@ Know the username:
 ```
 
 Know the email:
-```
+```python
 	git config user.email
 ```
 
 Change the username or email:  
-```
+```java
     git config --global user.name "new name"
     git config --global user.email "new email"
 ```
@@ -71,3 +71,8 @@ Change the username or email:
 
 To ignore files --> Create .gitignore file
 			' *.txt ' '*.extension'
+
+---
+[reference](https://www.youtube.com/watch?v=tRZGeaHPoaw&t=1250s)
+---
+![github](https://www.20i.com/blog/wp-content/uploads/2022/08/git-blog-header-740x416.png)
