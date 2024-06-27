@@ -1,4 +1,5 @@
-<h3><b> create new repository on the command line </b> </h3>  
+<h3><b> Create new repository on the command line </b> </h3>  
+
 ```
     git init
     git add 'file'
@@ -8,7 +9,8 @@
     git push -u origin main
 ```
 
-<h3><b> push existing repository from the command line </h3></b>  
+<h3><b> Push existing repository from the command line </h3></b>  
+	
 ```
     git remote add origin "link to github"
     git branch -M main
